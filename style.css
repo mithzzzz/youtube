@@ -1,0 +1,227 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hamburgr-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+.fa-bars {
+    font-size: 16px;
+    margin-left: 18px;
+}
+
+.logo-n-name {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.logo-img {
+    width: 26px;
+    height: 26px;
+}
+
+.ty-name {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.search-voice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    width: 520px;
+    height: 40px;
+    gap: 20px;
+    background-color: #000000;
+    border-radius: 40px;
+    border: 1px solid rgb(38, 36, 36);
+}
+
+.input {
+    width: 85%;
+    height: 30px;
+    margin-left: 20px;
+    border: none;
+    background-color: #000000;
+
+
+
+}
+
+/* .mic-div{
+    width: 35px;
+    height: 35px;
+    background-color: #322f2f;
+    border-radius: 50%;
+    text-align: center;
+    
+} */
+
+.account {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 50px;
+}
+
+
+.main-conainer {
+    width: 100%;
+    display: flex;
+    background-color: #000000;
+
+}
+
+.left-container {
+    width: 15%;
+    height: 100vh;
+    background-color: #000000;
+
+}
+
+.shortcut {
+    margin: 20px 30px;
+
+}
+
+.tag-logo {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 2px 8px;
+    cursor: pointer;
+    ;
+
+}
+
+.tag-logo:hover {
+    background-color: rgb(27, 26, 26);
+}
+
+.tag-name {
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 12px;
+}
+
+.sidebar-items {
+    border-bottom: 1px solid rgb(55, 51, 51);
+}
+
+.you-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 2px 10px;
+}
+
+.fa-greater-than {
+    font-size: 10px;
+}
+
+.right-container {
+    width: 85%;
+
+    background-color: #000000;
+}
+
+.suggetions {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #000000;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+.all {
+
+    padding: 4px 6px;
+    border-radius: 6px;
+    background-color: #e5dddd;
+    color: rgb(15, 15, 15);
+    margin: 4px 6px;
+
+}
+
+.all-sections {
+    padding: 4px 6px;
+    border-radius: 6px;
+    background-color: #302d2d;
+    color: rgb(240, 234, 234);
+    margin: 4px 6px;
+
+}
+
+.hero-content {
+    display: flex;
+
+}
+
+.cards {
+
+    width: 450px;
+    height: 280px;
+    /*   border: 1px solid rgb(37, 36, 36); */
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.card-decription {
+    line-height: 6px;
+}
+
+.card-title {
+    font-size: 14px;
+
+}
+
+.card-desc {
+    font-size: 12px;
+}
+
+.sub-desc {
+    font-size: 10px;
+    font-weight: 200;
+    margin-left: 6px;
+}
